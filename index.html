@@ -1,59 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jonathan | Portafolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <button id="boton-tema" class="estilo-boton-tema">🌙</button>
 
     <div class="contenedor-principal">
-        
-        <header id="seccion-inicio" class="animacion-scroll">
-            <h1 class="titulo-nombre">Hola, soy <span id="efecto-escritura"></span></h1>
-            <p class="subtitulo-profesion">Estudiante y desarrollador web en aprendizaje</p>
-            <div class="tarjeta-bio">
-                <p>Me gusta crear herramientas educativas, páginas web y proyectos utilizando HTML, CSS y JavaScript.</p>
-            </div>
-        </header>
+      <header id="seccion-inicio" class="animacion-scroll">
+        <h1 class="titulo-nombre">
+          Hola, soy <span id="efecto-escritura"></span>
+        </h1>
+        <p class="subtitulo-profesion">
+          Estudiante y desarrollador web en aprendizaje
+        </p>
+        <div class="tarjeta-bio">
+          <p>
+            Me gusta crear herramientas educativas, páginas web y proyectos
+            utilizando HTML, CSS y JavaScript.
+          </p>
+        </div>
+      </header>
 
-        <section id="seccion-tecnologias" class="animacion-scroll">
-            <h2>Tecnologías</h2>
-            <p class="texto-instruccion">Haz clic en cada tecnología para ver su uso común:</p>
-            
-            <div class="grupo-botones-tech">
-                <button class="boton-tech" data-uso="Estructurar el contenido y el esqueleto de las páginas web.">HTML</button>
-                <button class="boton-tech" data-uso="Diseñar, dar estilo, colores y adaptar la web a pantallas móviles.">CSS</button>
-                <button class="boton-tech" data-uso="Crear interactividad, lógica, juegos y funciones dinámicas.">JavaScript</button>
-                <button class="boton-tech" data-uso="Controlar versiones del código y subir proyectos a internet.">GitHub</button>
-                <button class="boton-tech" data-uso="Diseñar prototipos visuales, interfaces gráficas y maquetas.">Canva</button>
-            </div>
-            
-            <div id="caja-informacion-tech"></div>
-        </section>
+      <section id="seccion-tecnologias" class="animacion-scroll">
+        <h2>Tecnologías</h2>
+        <p class="texto-instruccion">
+          Haz clic en cada tecnología para ver su uso común:
+        </p>
 
-        <section id="seccion-proyectos" class="animacion-scroll">
-            <h2>Proyectos</h2>
-            <div class="tarjeta-proyecto">
-                <h3>Juego educativo desarrollado para filosofía</h3>
-                <p>Un proyecto interactivo diseñado para facilitar el aprendizaje de la filosofía de forma dinámica.</p>
-                <ul>
-                    <li>Temporizador</li>
-                    <li>Sistema de puntuación</li>
-                    <li>Clasificación final</li>
-                </ul>
-                <a href="https://jonathandavidiro1217-best.github.io/Quiz--Filo-sofos-Presocra-ticos-V1-GH/" target="_blank" class="enlace-proyecto">Ver Proyecto</a>
-            </div>
-        </section>
+        <div class="grupo-botones-tech">
+          <button
+            class="boton-tech"
+            data-uso="Estructurar el contenido y el esqueleto de las páginas web."
+          >
+            HTML
+          </button>
+          <button
+            class="boton-tech"
+            data-uso="Diseñar, dar estilo, colores y adaptar la web a pantallas móviles."
+          >
+            CSS
+          </button>
+          <button
+            class="boton-tech"
+            data-uso="Crear interactividad, lógica, juegos y funciones dinámicas."
+          >
+            JavaScript
+          </button>
+          <button
+            class="boton-tech"
+            data-uso="Controlar versiones del código y subir proyectos a internet."
+          >
+            GitHub
+          </button>
+          <button
+            class="boton-tech"
+            data-uso="Diseñar prototipos visuales, interfaces gráficas y maquetas."
+          >
+            Canva
+          </button>
+        </div>
 
-        <footer>
-            <p>© 2026 Jonathan. Diseñado con pasión por la educación y el código.</p>
-        </footer>
+        <div id="caja-informacion-tech"></div>
+      </section>
+
+      <section id="seccion-proyectos" class="animacion-scroll">
+        <h2>Proyectos</h2>
+
+        <div class="contenedor-tarjetas-proyectos">
+          <div class="tarjeta-proyecto">
+            <h3>Juego educativo desarrollado para filosofía</h3>
+            <p>
+              Un proyecto interactivo diseñado para facilitar el aprendizaje de
+              la filosofía de forma dinámica.
+            </p>
+            <ul>
+              <li>Temporizador</li>
+              <li>Sistema de puntuación</li>
+              <li>Clasificación final</li>
+            </ul>
+            <a
+              href="https://jonathandavidiro1217-best.github.io/Quiz--Filo-sofos-Presocra-ticos-V1-GH/"
+              target="_blank"
+              class="enlace-proyecto"
+              >Ver Proyecto</a
+            >
+          </div>
+
+          <div class="tarjeta-proyecto">
+            <h3>Diseño de tienda de videojuegos online</h3>
+            <p>
+              Una interfaz de usuario moderna y atractiva para una tienda
+              virtual de videojuegos, enfocada en la experiencia visual.
+            </p>
+            <ul>
+              <li>Diseño responsivo para móviles</li>
+              <li>Catálogo visual de juegos</li>
+              <li>Carrito de compras interactivo</li>
+            </ul>
+            <a
+              href="https://jonathandavidiro1217-best.github.io/Dise-o-de-tienda-de-video-juegos-virtual/"
+              target="_blank"
+              class="enlace-proyecto"
+              >Ver Proyecto</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>
+          © 2026 Jonathan. Diseñado con pasión por la educación y el código.
+        </p>
+      </footer>
     </div>
-
-</body>
+  </body>
 </html>
