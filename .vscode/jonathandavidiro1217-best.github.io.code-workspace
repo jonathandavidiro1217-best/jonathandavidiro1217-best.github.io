@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Dise-o-de-tienda-de-video-juegos-virtual"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
