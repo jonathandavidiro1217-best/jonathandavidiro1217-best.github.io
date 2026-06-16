@@ -337,7 +337,16 @@ footer {
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
+.tarjeta-contacto p {
+  color: var(--texto-blanco);
+  font-size: 0.9rem;
+  margin-top: 5px;
 
+  /* ¡ESTAS TRES LÍNEAS ARREGLAN EL CORREO LARGO! */
+  word-break: break-all; /* Rompe el texto si es muy largo */
+  overflow-wrap: break-word; /* Asegura que se adapte al contenedor */
+  white-space: normal; /* Permite que salte de línea */
+}
 .tarjeta-contacto span {
   display: block;
   font-weight: bold;
@@ -354,4 +363,10 @@ footer {
 
 .tarjeta-contacto a:hover {
   color: var(--morado-neon);
+}
+.logo-portafolio {
+  height: 50px; /* Ajusta este número (por ejemplo 40px o 60px) según qué tan grande quieras el logo */
+  width: auto; /* Mantiene la proporción para que no se vea estirado ni aplastado */
+  object-fit: contain; /* Asegura que el logo se vea completo y nítido */
+  display: block;
 }
