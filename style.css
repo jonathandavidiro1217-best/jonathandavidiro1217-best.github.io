@@ -139,6 +139,10 @@ h2 {
   border: 1px solid var(--color-borde);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
+.tarjeta-proyecto {
+  flex: 1 1 300px; /* Crece y encoge, pero intenta medir 300px de base */
+  max-width: 400px; /* Para que no se vean gigantes en pantallas muy grandes */
+}
 
 .tarjeta-proyecto h3 {
   font-size: 1.4rem;
@@ -166,8 +170,9 @@ h2 {
 }
 .contenedor-tarjetas-proyectos {
   display: flex;
-  flex-direction: column; /* Organiza las tarjetas en fila vertical por defecto */
-  gap: 25px; /* Deja un espacio limpio de 25 píxeles entre cada tarjeta */
+  flex-wrap: wrap; /* Organiza las tarjetas en fila vertical por defecto */
+  justify-content: center;
+  gap: 20px; /* Deja un espacio limpio de 25 píxeles entre cada tarjeta */
 }
 
 /* Truco extra para aprender: Si la pantalla es grande, pon las tarjetas lado a lado */
