@@ -1,0 +1,25 @@
+{
+  "name": "jonathandavidiro1217-best.github.io",
+  "version": "1.0.0",
+  "description": "¡Bienvenido a mi portafolio personal! Este es un espacio web diseñado y desarrollado desde cero para mostrar mi trayectoria, las habilidades técnicas que he adquirido y los proyectos que he construido como desarrollador.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathandavidiro1217-best/jonathandavidiro1217-best.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jonathandavidiro1217-best/jonathandavidiro1217-best.github.io/issues"
+  },
+  "homepage": "https://github.com/jonathandavidiro1217-best/jonathandavidiro1217-best.github.io#readme",
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "dotenv": "^17.4.2"
+  }
+}
