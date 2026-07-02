@@ -375,3 +375,21 @@ footer {
   object-fit: contain; /* Asegura que el logo se vea completo y nítido */
   display: block;
 }
+/* 1. El contenedor de las tecnologías */
+.tecnologias-contenedor {
+  display: flex; /* Alinea los botones uno al lado del otro */
+  flex-wrap: wrap; /* Si son muchas tecnologías, saltan a la siguiente línea */
+  gap: 8px; /* Espacio de separación entre cada botón */
+  margin-top: 15px; /* Separa las tecnologías del texto de arriba */
+  margin-bottom: 15px; /* Separa las tecnologías del botón de "Ver Proyecto" */
+}
+
+/* 2. El diseño de cada botón/etiqueta de tecnología */
+.tag-info {
+  background-color: #e0e0e0; /* Un color gris claro de fondo (puedes cambiarlo) */
+  color: #333333; /* Color del texto */
+  padding: 5px 10px; /* Espacio interno para que parezca pastilla/botón */
+  border-radius: 15px; /* Bordes redondeados */
+  font-size: 0.85rem; /* Un tamaño de letra un poco más pequeño y sutil */
+  font-weight: bold;
+}
